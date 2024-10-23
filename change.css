@@ -1,0 +1,35 @@
+.vid1 {
+    background-color: aqua;
+    align-self: stretch;
+}
+.vid6 {
+    background-color: black;
+    align-self: flex-start;
+}
+.vid7 {
+    background-color: blue;
+    align-self: center;
+}
+.vid8 {
+    background-color: gray;
+    align-self: flex-end;
+}
+.vid9 {
+    background-color: violet;
+    align-self: baseline;
+}
+.vid2 {
+    background-color: rebeccapurple;
+}
+
+.flex-item {
+    width: 200px;
+    height: 15%;
+}
+
+.divs {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
