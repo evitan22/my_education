@@ -7,13 +7,24 @@
     <link rel="stylesheet" href="change.css">
 </head>
 <body>
-    <div class="divs">
-        <div class="vid1 flex-item">1</div>
-        <div class="vid6 flex-item">6</div>
-        <div class="vid7 flex-item">7</div>
-        <div class="vid8 flex-item">8</div>
-        <div class="vid9 flex-item">9</div>
-        <div class="vid2 flex-item">2</div>
+    <h1>Рандомный текст</h1>
+    <h3>Lesson</h3>
+    <div class="lesson">
+        <div class="lesson_text">Text</div>
+        <ul name="list" class="lesson_list">
+            <li class="lesson_item-list lesson_item-list_red">Пункт 1</li>
+            <li id="listItem" class="lesson_item-list">Пункт 2</li>
+            <li class="lesson_item-list" id="table_digs"> Пункт 3
+                <ul class="lesson_sub-list">
+                    <li class="lesson_item-sub-list"><span class="text">Пункт 3.1</span></li>
+                    <li data-item="85" class="lesson_item-sub-list">Пункт 3.2</li>
+                    <li class="lesson_item-sub-list">Пункт 3.3</li>
+                </ul>
+            </li>
+            <li class="lesson_item-list lesson_item-list_blue">Пункт 4</li>
+        </ul>
+        <button class="button">Click me!</button>
     </div>
+    <script src="./prog.js"></script>
 </body>
 </html>
